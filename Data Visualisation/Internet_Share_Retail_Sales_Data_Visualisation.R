@@ -86,7 +86,7 @@ retail_labels <- tribble(
   ~measure, ~label, ~month_date, ~value,
   "awv_internet_sales_million", "Internet retail sales", as_date("2007-01-01"), 10000,
   "awv_non_internet_retail_million", "All other retail sales", as_date("2007-01-01"), 9000)
-ons_retail_title <- "In the UK lockdowns, the internet share of retail sales in Great Britain ratcheted up above one in four pounds."
+ons_retail_title <- "Following Covid-19 restrictions, the internet share of retail sales in Great Britain ratcheted over one in four pounds."
 ons_retail_subtitle <- paste0("Esimated average weekly retail sales value (in £ million) in Great Britain by internet and non-internet purchase, and the internet share of total retail sales (rounded to one decimal place). Figures are not seasonally adjusted, ",
                               format(ons_min_date, "%B %Y"), " to ", format(ons_max_date, "%B %Y"), ".")
 ons_retail_caption <- paste0("Source: Office for National Statistics: Retail Sales Index internet sales dataset, ",
@@ -116,7 +116,7 @@ ons_retail_gg1 <- ons_tidy_df %>%
   annotate(geom = "rect", xmin = uk_lockdown_start_dates, xmax = uk_lockdown_end_dates,
            ymin = 0, ymax = 12500, alpha = 0.2, fill = "gold") +
   annotate(geom = "text", x = as_date("2014-01-01"), y = 12400,
-           label = "UK national\nlockdowns during\nCovid-19 pandemic",
+           label = "Lockdowns in England during\nCovid-19 pandemic",
            fontface = "bold", size = 6, hjust = 0, vjust = 1) +
   theme(plot.title = element_text(margin = margin(0, 0, 30, 0))) +
   labs(title = "Average weekly retail sales value by type",
