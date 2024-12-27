@@ -6,4 +6,6 @@ The second project created a series of graphs for the response rate of the Labou
 
 Data sources:
 - Home Office: https://www.gov.uk/government/statistical-data-sets/immigration-system-statistics-data-tables#returns
-- Office for National Statistics: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyperformanceandqualitymonitoringreportjulytoseptember2024
+- Office for National Statistics: Labour Force Survey Performance and Quality Monitoring Report: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyperformanceandqualitymonitoringreportjulytoseptember2024
+- Office for National Statistics: Retail Sales Index internet sales dataset:
+https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsalesindexinternetsales
