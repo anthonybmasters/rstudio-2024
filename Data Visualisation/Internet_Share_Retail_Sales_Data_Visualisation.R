@@ -87,7 +87,7 @@ retail_labels <- tribble(
   "awv_internet_sales_million", "Internet retail sales", as_date("2007-01-01"), 10000,
   "awv_non_internet_retail_million", "All other retail sales", as_date("2007-01-01"), 9000)
 ons_retail_title <- "In the UK lockdowns, the internet share of retail sales in Great Britain ratcheted up above one in four pounds."
-ons_retail_subtitle <- paste0("Average weekly retail sales value (in £ million) in Great Britain by internet and non-internet purchase, and the internet share of total retail sales (rounded to one decimal place). Figures are not seasonally adjusted, ",
+ons_retail_subtitle <- paste0("Esimated average weekly retail sales value (in £ million) in Great Britain by internet and non-internet purchase, and the internet share of total retail sales (rounded to one decimal place). Figures are not seasonally adjusted, ",
                               format(ons_min_date, "%B %Y"), " to ", format(ons_max_date, "%B %Y"), ".")
 ons_retail_caption <- paste0("Source: Office for National Statistics: Retail Sales Index internet sales dataset, ",
                              format(ons_max_date, "%B %Y"), ".")
